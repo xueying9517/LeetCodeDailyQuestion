@@ -1,4 +1,4 @@
-class Solution {
+class SolutionXiaoWei1219 {
     int r;
     int c;
     public int getMaximumGold(int[][] grid) {
