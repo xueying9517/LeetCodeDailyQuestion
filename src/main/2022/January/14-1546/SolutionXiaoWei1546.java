@@ -1,4 +1,4 @@
-class Solution {
+class SolutionXiaoWei1546 {
     public int maxNonOverlapping(int[] nums, int target) {
         int presum = 0;
         Map<Integer, Integer> sumMap = new HashMap<>();
