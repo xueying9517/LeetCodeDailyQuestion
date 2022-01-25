@@ -1,0 +1,11 @@
+1298. 你能从盒子里获得的最大糖果数
+https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes
+给你n个盒子，每个盒子的格式为[status, candies, keys, containedBoxes]，其中：
+
+状态字status[i]：整数，如果box[i]是开的，那么是 1，否则是 0。
+糖果数candies[i]: 整数，表示box[i] 中糖果的数目。
+钥匙keys[i]：数组，表示你打开box[i]后，可以得到一些盒子的钥匙，每个元素分别为该钥匙对应盒子的下标。
+内含的盒子containedBoxes[i]：整数，表示放在box[i]里的盒子所对应的下标。
+给你一个initialBoxes 数组，表示你现在得到的盒子，你可以获得里面的糖果，也可以用盒子里的钥匙打开新的盒子，还可以继续探索从这个盒子里找到的其他盒子。
+
+请你按照上述规则，返回可以获得糖果的 最大数目。
